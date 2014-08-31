@@ -2,7 +2,7 @@
 
 import os
 
-DEBUG = True
+DEBUG = False
 SITE_ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE_URL = 'http://127.0.0.1'
 SITE_PORT = 80
