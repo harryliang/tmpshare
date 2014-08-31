@@ -54,3 +54,7 @@ class Upload(tornado.web.RequestHandler):
 
     def check_xsrf_cookie(self):
         return
+
+class MyFile(tornado.web.StaticFileHandler):
+    def set_extra_headers(self, path):
+        self.set_header("Cache-control", "no-cache")
