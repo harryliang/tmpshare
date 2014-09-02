@@ -8,6 +8,8 @@ SITE_URL = 'http://127.0.0.1'
 SITE_PORT = 80
 SECRET_KEY = "asdlfjkhlkasdflasdkfjhagg;d9dfjsdkfhsdfjksdf"
 
+IP_CHECK = False
+
 try:
     from local_settings import *
 except:
